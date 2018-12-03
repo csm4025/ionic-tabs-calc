@@ -11,6 +11,8 @@ import { ContactPageModule } from '../contact/contact.module';
 import { AboutPageModule } from '../about/about.module';
 import { HomePageModule } from '../home/home.module';
 
+import { CalculatorPageModule } from '../calculator/calculator.module';
+
 @NgModule({
   imports: [
     IonicModule,
@@ -19,7 +21,8 @@ import { HomePageModule } from '../home/home.module';
     TabsPageRoutingModule,
     HomePageModule,
     AboutPageModule,
-    ContactPageModule
+    ContactPageModule,
+    CalculatorPageModule
   ],
   declarations: [TabsPage]
 })
